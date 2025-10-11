@@ -1,5 +1,5 @@
 import { User } from "@/models/User";
-import { Request, response, Response } from "express";
+import { Request, Response } from "express";
 import { randomUUID } from "crypto";
 
 const Users: User[] = [];
