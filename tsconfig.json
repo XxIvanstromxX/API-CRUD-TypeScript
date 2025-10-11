@@ -10,6 +10,9 @@
     "strict": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    //pretty useful to avoid issues with ESM modules
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
     // directory settings
     "rootDir": "./src",
