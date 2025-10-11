@@ -15,7 +15,9 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@controllers/*" : ["./src/controllers/*"]
     }
   },
   "include": ["src"],
